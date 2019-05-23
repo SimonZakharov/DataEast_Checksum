@@ -32,7 +32,6 @@ int main(int argc, char *argv[])
 				printf("%s\n", TextHandlerFletcher::ERROR_HANDLE);
 				return 1;
 			}
-			handler->set_filename("filename.txt");
 			delete handler;
 			return 0;
 		}

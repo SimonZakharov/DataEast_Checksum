@@ -16,7 +16,7 @@ public:
 	///	override virtual methods
 	uint count(std::string word) override;
 	virtual uint word_checksum(std::string word) override;
-	uint checksum() override;
+	virtual uint checksum() override;
 	void set_filename(std::string filename) override;
 
 protected:
